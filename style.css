@@ -1,0 +1,21 @@
+.cuadrado {
+  border-radius:50%;
+  width: 150px;  
+  height: 150px;          
+  background: pink;   
+  position:realtive;
+  animation-duration:5s;
+  animation-name:cambio-color;
+  animation-interation-count: infinite;
+}
+@keyframes cambio-color{
+  from{
+    background-color: pink;
+    position: relative;
+  }
+  to{
+    background-color: cyan;
+      position: relative;
+    transform: translate(2000px,300px);
+  }
+}
